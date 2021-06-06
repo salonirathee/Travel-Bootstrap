@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+hr{
+    border: 8px dashed rgb(185, 185, 185);
+    background-color: transparent;
+    margin: 40px auto;
+    width: 12%;
+}
+a{
+    text-decoration: none;
+}
+/*---------------------- HEADER STARTS---------------- */
+#header{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+#header a .logo{
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
+    text-align: center;
+    padding-top: 15px;
+}
+#header .navbar-toggler-icon{
+    color:#fff;
+}
+#header .btn{
+    background-color: rgba(0, 0, 0, 0.3);
+    color:#fff;
+    padding: 5px 15px;
+    margin:15px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#header .btn:hover{
+    color:#f5cebe;
+}
+/*------------------------------- BANNER----------------------- */
+#banner{
+    position: relative;
+}
+#banner .carousel-inner{
+    height: 657px;
+}
+#banner .carousel-item img{
+    height: 657px;
+}
+
+/* #banner #banner-text{
+    position: absolute;
+    top:25%;
+    left:30%;
+    width:40%;
+}
+#banner #banner-heading{
+    color:#fff;
+    font-size: 44px;
+}
+#banner #banner-para{
+    color: #fff;
+} */
+
+#banner .carousel-caption{
+    color:#f5cebe;
+    font-family: 'Merienda', cursive;
+}
+/*-----------------------MAIN-STARTS----------------- */
+
+/*-----------------------SECTION-1----------------- */
+#section-1 {
+    padding:100px 0px 40px;
+}
+#section-1 .row .col{
+    padding: 10px;
+}
+#section-1 .title strong{
+    color:#114e60;
+    font-family: 'Merienda', cursive;
+}
+#section-1 .btn, #section-4 .btn{
+    color:#325288;
+    border-color: #325288;
+}
+#section-1 .btn:hover, #section-4 .btn:hover{
+    color:#f5cebe;
+    background-color: #325288;
+}
+#section-1 img{
+    height: auto;
+}
+/* ---------------------SECTION-2------------------ */
+#section-2{
+    padding:50px 0px;
+} 
+#section-2 h3, #section-3 h3,#section-4 h3, #section-6 h3, #section-7 h3{
+    padding:10px 0px;
+    font-size: 34px;
+    margin:0;
+}
+#section-2 .sub-title, #section-6 p{
+    margin: 0;
+    /*padding is top-left/right-bottom */
+    padding:16px 0px 25px; 
+    font-size: 18px;
+    color:#808080;
+}
+#section-2 .row {
+    margin:0;
+}
+#section-2 .row .col .card{
+    padding:20px 0px;
+}
+#section-2 .row .col .card span{
+    color:#f5cebe;
+    padding:10px 0px 10px;
+}
+#section-2 .row .col .card-title{
+    color:#114e60;
+    font-size: 27px;
+    padding:0px 0px 18px;
+    margin: 0;
+    font-family: 'Merienda', cursive;
+}
+#section-2 .row .card-text{
+    margin:0;
+}
+/*----------------SECTION-3----------- */
+#section-3{
+    padding:60px 0px 90px;
+    background-color: #f5cebe;
+    color:#fff;
+}
+#section-3 .card-group{
+    padding:24px;
+}
+#section-3 .card{
+    background-color: #f5cebe;
+}
+#section-3 .fas{
+    margin:0;
+    font-size: 34px;
+    padding:40px 0px 10px;
+}
+#section-3 .card-title{
+    text-transform: uppercase;
+    font-family: 'Merienda', cursive;
+    padding:0px 0px 10px;
+}
+#section-3 .card-text{
+    color:#808080;
+    margin: 0%;
+    /* padding: 0px 10px 10px; */
+}
+/* ------------------SECTION-4-------------- */
+#section-4{
+    padding:70px 0px 0px;
+}
+#section-4 .card-body h6{
+    color:#808080;
+    font-family: 'Merienda', cursive;
+}
+#section-4 .card-body .fas,.far{
+    color:#325288;
+}
+#section-4 .card-body .card-text{
+    color: #808080;
+}
+#section-4 .buttons{
+    margin:0%;
+    padding:40px 0px;
+}
+/* ------------------SECTION-5-------------- */
+#section-5{
+    height:auto;
+    background-image: url("../images/LA-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+#section-5 .container-fluid{
+    height:inherit;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* padding:80px 140px; */
+    padding:30px 10px;
+}
+#section-5 .container-fluid h3{
+    font-size: 3.3em;
+    font-family: 'Merienda', cursive;
+}
+#section-5 .container-fluid p{
+    font-size: 17px;
+    margin: 0;
+    padding: 30px 0px;
+}
+#section-5 .container-fluid .btn{
+    font-size: 18px;
+    padding:10px 20px;
+}
+#section-5 .btn:hover{
+    color:#325288;
+    background-color: #fff;
+}
+/*------------------------- SECTION-6----------------- */
+#section-6{
+    padding:90px 0px;
+}
+
+/*------------------------- SECTION-7----------------- */
+#section-7{
+    background-color: #f4eee8;
+    color: #325288;
+    height:auto;
+    padding: 25px 0px;
+}
+#section-7 .form input,textarea{
+    margin:5px 0px;
+}
+#section-7 .form button{
+    margin:5px 0px;
+    color:#325288;
+    border-color: #325288;
+}
+#section-7 .form button:hover{
+    background-color: #325288;
+    color:#fff;
+}
+/*-------------------------------- MAIN ENDED------------------------------- */
+
+
+/* ----------------------------------FOOTER--------------------------------- */
+#section-8{
+    background-color: #325288;
+    color: #f5cebe;
+    padding: 45px 0px 20px;
+}
+#footer #section-8 .footer-title{
+    color:#fff;
+    font-size: 22px;
+    font-family:'Merienda', cursive;
+    padding: 0px 0px 10px;
+}
+#section-8 .col ul{
+    list-style: none;
+    /* padding:12px; */
+}
+#section-8 .social-list li a, #footer .row .row ul a{
+    color:#f5cebe;
+}
+#section-8 .social-list li a:hover, #footer .row .row ul a:hover{
+    color:#fff;
+}
+#section-8 .news-letter{
+    padding: 0px 12px;
+}
+#section-8 .row .col button{
+    background-color: #fff;
+    color:#325288;
+    /* border-color: #fff; */
+}
+#section-8 .row .col button:hover{
+    background-color: #f5cebe;
+}
+/* --------------------------SECTION-9------------------------- */
+#section-9{
+    padding:10px;
+    background-color: #114e60;
+}
+#section-9 .copy-right p{
+    color:#808080;
+    font-size: 17px;
+    margin-bottom: 0%;
+}
